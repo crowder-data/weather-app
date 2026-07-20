@@ -3,7 +3,7 @@ import pandas as pd
 
 st.title("La Crosse Weather Dashboard")
 
-df = pd.read_parquet("data/weather.parquet")
+df = pd.read_parquet("data/weather-app.parquet")
 
 df["date"] = pd.to_datetime(df["date"])
 
