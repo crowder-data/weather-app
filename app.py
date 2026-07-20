@@ -5,14 +5,12 @@ st.title("La Crosse Weather Dashboard")
 
 df = pd.read_parquet("data/weather-app.parquet")
 
-df["date"] = pd.to_datetime(df["date"])
-
 month = st.selectbox(
     "Select month",
     range(1, 13)
 )
 
-filtered = df[df["date"].dt.month == month]
+filtered = df[df["Month"] == month]
 
 st.dataframe(
     filtered,
