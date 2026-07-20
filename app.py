@@ -1,14 +1,15 @@
 import streamlit as st
 import pandas as pd
 
-st.title("La Crosse Weather Dashboard")
+st.title("La Crosse Weather Dashboard (2025)")
 
 df = pd.read_parquet("data/weather-app.parquet")
 
 month = st.selectbox(
     "Select month",
-    range(1, 13)
+    ["January","February","March","April","May","June","July","August","September","October","November","December"]
 )
+
 
 filtered = df[df["Month"] == month]
 
