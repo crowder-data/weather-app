@@ -1,4 +1,6 @@
-This project came about because I wanted to build a simple streamlit app and weather and climate data are easily found online.
+This project came about because I wanted to build a simple streamlit app that focuses on actual high and low temps and how they compare over time and to historical "normals."
+
+It seemed like a good project to start with because weather and climate data are easily found online.
 
 Primary sources I've used in this project (thus far):
 
