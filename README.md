@@ -4,6 +4,7 @@ It seemed like a good project to start with because weather and climate data are
 
 Primary sources I've used in this project (thus far):
 
+- [Climate Normals - Quick Access](https://www.ncei.noaa.gov/access/us-climate-normals/)
 - [NOAA Climate Normals](https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals)
 - [CDO API access](https://www.ncdc.noaa.gov/cdo-web/webservices/v2)
 
